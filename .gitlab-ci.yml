@@ -1,0 +1,14 @@
+pages:
+  stage: deploy
+  script:
+    - bun install --frozen-lockfile
+    - bun run build
+    - rm -rf public
+    - mv dist public
+  pages:
+    publish: public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
