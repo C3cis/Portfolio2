@@ -1,5 +1,7 @@
 pages:
   stage: deploy
+  tags:
+    - cbpf-runner
   script:
     - bun install --frozen-lockfile
     - bun run build
