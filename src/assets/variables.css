@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-primary: #0d0d0d;
+  --bg-card2: linear-gradient(135deg, rgba(254, 191, 0, 0.8), rgba(6, 5, 5, 0.8));
+  --bg-card: linear-gradient(135deg, rgba(255, 187, 0, 0.8), rgba(0, 0, 0, 0.8));
+  --text-primary: #ffffff;
+  --text-muted: #ead9be;
+  --accent-pink: #e7ad00;
+  --accent-purple: #e1bb21;
+  --gradient: linear-gradient(135deg, #fffefc, #ba9d2b);
+  --gradient-body: linear-gradient(135deg,#000000,#3b392b,#6c5729,#000000);
+}
